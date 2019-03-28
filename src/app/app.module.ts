@@ -7,6 +7,7 @@ import { RippleComponent } from './components/ripple/ripple.component';
 import { TextEffectComponent } from './components/text-effect/text-effect.component';
 import { TextAnimationComponent } from './components/text-animation/text-animation.component';
 import { SearchboxComponent } from './components/searchbox/searchbox.component';
+import { MenuComponent } from './components/menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { SearchboxComponent } from './components/searchbox/searchbox.component';
     RippleComponent,
     TextEffectComponent,
     TextAnimationComponent,
-    SearchboxComponent
+    SearchboxComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule
@@ -27,6 +29,8 @@ import { SearchboxComponent } from './components/searchbox/searchbox.component';
     RippleComponent,
     TextEffectComponent,
     TextAnimationComponent,
-    SearchboxComponent]
+    SearchboxComponent,
+    MenuComponent
+  ]
 })
 export class AppModule { }
