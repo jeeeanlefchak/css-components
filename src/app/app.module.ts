@@ -8,6 +8,7 @@ import { TextEffectComponent } from './components/text-effect/text-effect.compon
 import { TextAnimationComponent } from './components/text-animation/text-animation.component';
 import { SearchboxComponent } from './components/searchbox/searchbox.component';
 import { MenuComponent } from './components/menu/menu.component';
+import { ListItemsComponent } from './list-items/list-items.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { MenuComponent } from './components/menu/menu.component';
     TextEffectComponent,
     TextAnimationComponent,
     SearchboxComponent,
-    MenuComponent
+    MenuComponent,
+    ListItemsComponent
   ],
   imports: [
     BrowserModule
