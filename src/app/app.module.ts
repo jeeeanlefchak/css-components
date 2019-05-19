@@ -8,8 +8,7 @@ import { TextEffectComponent } from './components/text-effect/text-effect.compon
 import { TextAnimationComponent } from './components/text-animation/text-animation.component';
 import { SearchboxComponent } from './components/searchbox/searchbox.component';
 import { MenuComponent } from './components/menu/menu.component';
-import { ListItemsComponent } from './list-items/list-items.component';
-import { LoadingBarComponent } from './loading-bar/loading-bar.component';
+import { ListItemsComponent } from './components/list-items/list-items.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +20,6 @@ import { LoadingBarComponent } from './loading-bar/loading-bar.component';
     SearchboxComponent,
     MenuComponent,
     ListItemsComponent,
-    LoadingBarComponent
   ],
   imports: [
     BrowserModule

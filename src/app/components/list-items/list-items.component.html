@@ -1,0 +1,12 @@
+<div class="pt">
+  <div class="box" *ngFor="let group of groups, let i = index">
+    <h2 class="header">
+      {{group.name}}
+    </h2>
+    <ul>
+      <li *ngFor="let item of group.items, let index = index" [ngStyle]="{'animation-delay': (index * 10) + 'ms'}">
+        {{item}}
+      </li>
+    </ul>
+  </div>
+</div>
