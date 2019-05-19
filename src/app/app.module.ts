@@ -9,6 +9,7 @@ import { TextAnimationComponent } from './components/text-animation/text-animati
 import { SearchboxComponent } from './components/searchbox/searchbox.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { ListItemsComponent } from './list-items/list-items.component';
+import { LoadingBarComponent } from './loading-bar/loading-bar.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ListItemsComponent } from './list-items/list-items.component';
     TextAnimationComponent,
     SearchboxComponent,
     MenuComponent,
-    ListItemsComponent
+    ListItemsComponent,
+    LoadingBarComponent
   ],
   imports: [
     BrowserModule
